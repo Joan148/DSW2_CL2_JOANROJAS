@@ -1,4 +1,4 @@
-package pe.edu.cibertect.api_rest_ventas.model.dto;
+package com.cl2.dsw2.joanrojas.model.dto;
 
 import lombok.Builder;
 import lombok.Data;
