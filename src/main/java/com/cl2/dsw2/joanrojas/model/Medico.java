@@ -23,7 +23,9 @@ public class Medico {
     private String apemedico;
     private Date fechnacmedico;
 
-    @OneToMany(mappedBy = "medico", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Especialidad> especialidades;
+    /*@OneToMany(mappedBy = "medico", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Especialidad> especialidades;*/
+
+
 
 }
